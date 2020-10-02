@@ -1,4 +1,4 @@
-[![Heroku](https://heroku-badge.herokuapp.com/?app=simple-react-boilerplate)]
+![Heroku](https://heroku-badge.herokuapp.com/?app=simple-react-boilerplate)
 
 ### `yarn start`
 
