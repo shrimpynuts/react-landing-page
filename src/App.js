@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Sometimes I get sad.
+          Sometimes I get sad...
         </p>
       </header>
     </div>
