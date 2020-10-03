@@ -18,22 +18,17 @@ It is best practice to deploy first, and then develop second. Let's get started!
 
 1.  #### Fork this repository
 
-* Just hit the "Fork" button in the top right-hand corner of this Github repo.
-
-2.  #### Setup Heroku
-
-* Sign up for an account at [heroku](https://heroku.com/).
-* Create a new Heroku app with a name you like
+    1. Just hit the "Fork" button in the top right-hand corner of this Github repo.
 
 3.  #### Deploy to Heroku
+    1.  Sign up for an account at [heroku](https://heroku.com/).
+    2.  Create a new Heroku app with a name you like
+    3.  Go to the "Deploy" section in the project nav-bar
+    4.  Under "Deployment Method/Connect to Github", enter in your forked Github repository 
+    5.  Under "Manual deploy" click "Deploy Branch"
+    6.  We're done! Check [your-app-name].herokuapp.com to make sure it's live! 🚀
 
-* Go to the "Deploy" section in the project nav-bar
-* Under "Deployment Method" click "Github"
-* Under "Connect to Github", enter in your forked Github repository 
 * (optional) Under "Automatic deploys", click "Enable Automatic Deploys" (this will ensure that every new commit under the main branch will automatically trigger a redeploy)
-* Under "Manual deploy" click "Deploy Branch"
-* We're done! Check [your-app-name].herokuapp.com to make sure it's live! 🚀
-
 
 NOTE: If there is enough interest, I will add a guide on how to hook up a custom domain.  
 
@@ -44,8 +39,8 @@ You'll obviously want to modify the content of this landing page to suit your ne
 
 #### Running locally
 
-* In your terminal, run `yarn start`.
-* Head to localhost:3000 in your browser to make sure its working.
+1. In your terminal, run `yarn start`.
+2. Head to localhost:3000 in your browser to make sure its working.
 
 #### Google Form
 
