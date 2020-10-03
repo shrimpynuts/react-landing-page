@@ -15,18 +15,15 @@ If you have ideas on how to improve this, issues or PR's are much appreciated!
 
 It is best practice to deploy first, and then develop second. Let's get started!
 
+Just 7 really easy steps! 😎
 
-1.  #### Fork this repository
-
-    1. Just hit the "Fork" button in the top right-hand corner of this Github repo.
-
-3.  #### Deploy to Heroku
-    1.  Sign up for an account at [heroku](https://heroku.com/).
-    2.  Create a new Heroku app with a name you like
-    3.  Go to the "Deploy" section in the project nav-bar
-    4.  Under "Deployment Method/Connect to Github", enter in your forked Github repository 
-    5.  Under "Manual deploy" click "Deploy Branch"
-    6.  We're done! Check [your-app-name].herokuapp.com to make sure it's live! 🚀
+1. Just hit the "Fork" button in the top right-hand corner of this Github repo.
+2.  Sign up for an account at [heroku](https://heroku.com/).
+3.  Create a new Heroku app with a name you like
+4.  Go to the "Deploy" section in the project nav-bar
+5.  Under "Deployment Method/Connect to Github", enter in your forked Github repository 
+6.  Under "Manual deploy" click "Deploy Branch"
+7.  We're done! Check [your-app-name].herokuapp.com to make sure it's live! 🚀
 
 * (optional) Under "Automatic deploys", click "Enable Automatic Deploys" (this will ensure that every new commit under the main branch will automatically trigger a redeploy)
 
