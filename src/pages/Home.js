@@ -1,52 +1,40 @@
 import React from 'react';
+
+import Feature from '../components/Feature';
+
 import heroImage from '../assets/hero-img.png';
 import ft1 from '../assets/ft1.gif';
 import ft2 from '../assets/ft2.gif';
 import ft3 from '../assets/ft3.gif';
 
+
 export default function Home() {
     return (
         <div>
             <div className="hero">
-                <h1>Figure out what your audience wants.</h1>
-                <h2>We help you talk to users.</h2>
+                <h1>Find out what your audience <span className="highlight">really wants</span>.</h1>
+                <h2>We help bloggers actually talk to their people.</h2>
                 <a href="#form"><button id="call-to-action"><b>Join the waitlist!</b></button></a>
                 {/* <p>You're early! We're busy building. If you'd like to stay in the loop, join our waitlist.</p> */}
-                <p>P.S. This is not a real product, just a demo for <a href="https://github.com/jonathancai11/react-boilerplate">react-boilerplate</a></p>
+                <p>(P.S. This is definitely not a real product, just a demo for <a href="https://github.com/jonathancai11/react-boilerplate">react-boilerplate)</a></p>
+            </div>
+            <div >
                 <img src={heroImage} width="100%" />
             </div>
-
             <section className="details">
-                <p>If you blog, it can be a pain to come up with ideas for your next blog post.</p>
-                <p>Typically you want to do something to talk to your users.</p>
-                <p>But viewers can be from many different channels: SEO, subscribers, organic traffic.</p>
-                <p>Why don't we aggregate all of these different streams to give a single source of feedback for your content.</p>
-                <p>Here are all the features we plan to build:</p>
+                <p>If you're a blogger, you know that it can a pain to <b>come up with ideas for your next blog post</b>.</p>
+                <p>Ideally, you'd ask them for <b>ideas and feedback</b>.</p>
+                <p>But viewers can be from many different channels including newsletters, SEO, subscribers, organic traffic.</p>
+                <p>Your audience gives you feedback across many platforms, communities, comment sections, and inboxes.</p>
+                <p>For the price of a coffee (4$/month), we help you navigate the mess and aggregate this information in a digestible way, <b>saving you hours of time and energy</b>, 
+                so you can do what you do best: <b>create</b>.</p>
+                <p>Here are a few of the awesome things we have in store for you:</p>
             </section>
 
             <section className="features">
-                <div className="single-feature" id="left">
-                    <img src={ft1} />
-                    <div>
-                        <h3>Feature 1: Stripe integration</h3>
-                        <p>Stuff that is awesome.</p>
-                    </div>
-                </div>
-                <div className="single-feature" id="right">
-                    <div>
-                        <h3>Feature 2: Something great</h3>
-                        <p>Stuff that is awesome.</p>
-                    </div>
-                    <img src={ft2} />
-                </div>
-                <div className="single-feature" id="left">
-                    <img src={ft3} />
-                    <div>
-                        <h3>Feature 3: Awesome sauce</h3>
-                        <p>Snoop Doggy Dogg.</p>
-                    </div>
-                </div>
-
+                <Feature gif={ft1} title="Feature 1: Stripe integration." description="Stuff that is awesome!!" direction="left"/>
+                <Feature gif={ft2} title="Feature 2: Something great." description="Stuff that is awesome!!" direction="right" />
+                <Feature gif={ft3} title="Feature 3: Something awesome." description="Stuff that is awesome!!" direction="left" />
             </section>
 
             <section id="form" className="form">

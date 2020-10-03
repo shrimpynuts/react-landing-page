@@ -11,6 +11,7 @@ section {
   padding: 10px 5vw 0px 5vw;
 }
 
+
 #call-to-action {
   border-radius: 12px;
   font-size: large;
@@ -20,7 +21,7 @@ section {
 }
 
 .hero {
-  height: 110vh;
+  height: 35vh;
   margin: 0px 20vw 0px 20vw;
   text-align: center;
 }
@@ -38,45 +39,48 @@ section {
 }
 
 .details {
-  /* margin: 0px 20vw 0px 20vw; */
   padding-bottom: 20px;
-  ;
 }
 
 .features {
-  /* margin: 0px 20vw 0px 20vw; */
   padding: 0px 0px 10vh 0px;
 }
 
+
+.highlight {
+  background-color: #FBECF4;
+}
+
+::selection {
+  background: #FBECF4;
+  /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #FBECF4;
+  /* Gecko Browsers */
+}
+
 .single-feature {
-  padding-bottom: 20px;
   height: 30vh;
 }
 
-.single-feature>img {
-  max-height: 100%;
-  width: 50%;
-}
-
 .single-feature>div {
-  text-align: center;
-}
-
-.single-feature#left>img {
-  float: left;
-}
-
-.single-feature#right>div {
+  vertical-align: top;
   width: 50%;
-  float: left;
+  text-align: center;
+  display: inline-block;
 }
 
-.single-feature#right>img {
-  float: right;
+.single-feature>div>img {
+  max-height: 100%;
+  width: 100%;
 }
 
 .form {
-  margin: 0px 20vw 50px 20vw;
+  margin: 0px 20vw 0px 20vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   height: 80vh;
   text-align: center;
 }
@@ -87,8 +91,8 @@ section {
 }
 
 .footer {
-  height: 10vh;
-  background-color: rgb(233, 233, 233);
+  height: 20vh;
+  background-color: rgb(0, 0, 0);
 }
 
 @media only screen and (max-width: 600px) {
