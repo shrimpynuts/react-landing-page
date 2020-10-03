@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Feature from '../components/Feature';
+import SocialProof from '../components/SocialProof';
 
 import heroImage from '../assets/hero-img.png';
 import ft1 from '../assets/ft1.gif';
@@ -16,11 +17,16 @@ export default function Home() {
                 <h2>We help bloggers actually talk to their people.</h2>
                 <a href="#form"><button id="call-to-action"><b>Join the waitlist!</b></button></a>
                 {/* <p>You're early! We're busy building. If you'd like to stay in the loop, join our waitlist.</p> */}
-                <p>(This is definitely not a real thing, just a demo for the open-source <a href="https://github.com/jonathancai11/react-boilerplate">react-boilerplate)</a></p>
+                <p>(This is definitely not a real thing, just a demo for the open-source <a target="_blank" href="https://github.com/jonathancai11/react-boilerplate">react-boilerplate</a>)</p>
+                <p>(Includes a guide on how to deploy this React landing page on Heroku in just 5 minutes!)</p>
             </div>
+            
             <div className="hero-image">
                 <img src={heroImage} width="100%" />
             </div>
+            
+            <SocialProof/>
+
             <section className="details">
                 <p>If you blog, you know how hard it can be to <b>come up with ideas for your next post</b>.</p>
                 <p>Ideally, you'd ask your readers for <span className="highlight"><b>ideas and feedback</b></span>.</p>
