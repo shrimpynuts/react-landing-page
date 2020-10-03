@@ -10,17 +10,19 @@ export default function Home() {
             <div className="hero">
                 <h1>Figure out what your audience wants.</h1>
                 <h2>We help you talk to users.</h2>
-                <a href="#form"><button>Join the waitlist</button></a>
-                <p>You're early!</p>
+                <a href="#form"><button id="call-to-action"><b>Join the waitlist!</b></button></a>
+                {/* <p>You're early! We're busy building. If you'd like to stay in the loop, join our waitlist.</p> */}
+                <p>P.S. This is not a real product, just a demo for <a href="https://github.com/jonathancai11/react-boilerplate">react-boilerplate</a></p>
                 <img src={heroImage} width="100%" />
             </div>
-            <div className="details">
+
+            <section className="details">
                 <p>If you blog, it can be a pain to come up with ideas for your next blog post.</p>
                 <p>Typically you want to do something to talk to your users.</p>
                 <p>But viewers can be from many different channels: SEO, subscribers, organic traffic.</p>
                 <p>Why don't we aggregate all of these different streams to give a single source of feedback for your content.</p>
                 <p>Here are all the features we plan to build:</p>
-            </div>
+            </section>
 
             <section className="features">
                 <div className="single-feature" id="left">
@@ -41,7 +43,7 @@ export default function Home() {
                     <img src={ft3} />
                     <div>
                         <h3>Feature 3: Awesome sauce</h3>
-                        <p>Stuff that is awesome.</p>
+                        <p>Snoop Doggy Dogg.</p>
                     </div>
                 </div>
 

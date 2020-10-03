@@ -2,9 +2,21 @@ html {
   scroll-behavior: smooth;
 }
 
+section {
+  margin: 0px 20vw 0px 20vw;
+}
+
 .header {
   height: 8vh;
   padding: 10px 5vw 0px 5vw;
+}
+
+#call-to-action {
+  border-radius: 12px;
+  font-size: large;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
 }
 
 .hero {
@@ -22,15 +34,17 @@ html {
 }
 
 .hero>h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .details {
-  margin: 10vh 30vw 10vh 30vw;
+  /* margin: 0px 20vw 0px 20vw; */
+  padding-bottom: 20px;
+  ;
 }
 
 .features {
-  margin: 0px 20vw 0px 20vw;
+  /* margin: 0px 20vw 0px 20vw; */
   padding: 0px 0px 10vh 0px;
 }
 
@@ -75,4 +89,30 @@ html {
 .footer {
   height: 10vh;
   background-color: rgb(233, 233, 233);
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    margin: 0px 5vw 0px 5vw;
+  }
+
+  .hero {
+    height: 110vh;
+    margin: 0px 7vw 0px 7vw;
+    text-align: center;
+  }
+
+  .single-feature {
+    padding-bottom: 20px;
+    height: 20vh;
+  }
+
+  section#form {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .form>iframe {
+    width: 80vw;
+  }
 }
