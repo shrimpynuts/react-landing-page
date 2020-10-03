@@ -5,6 +5,9 @@ With this guide you should get an awesome landing page up and running in 5 minut
 
 [Live demo](https://react-landing-page1.herokuapp.com/) of what we'll be deploying.
 
+![alt text](https://github.com/jonathancai11/react-landing-page/blob/main/demo.gif)
+
+
 ## Deploying
 
 It is best practice to deploy first, and then develop second. Let's get started!
