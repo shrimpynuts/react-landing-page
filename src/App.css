@@ -13,6 +13,10 @@ html {
   text-align: center;
 }
 
+.hero>img {
+  width: 100%;
+}
+
 .hero>h1 {
   font-size: 60px;
 }
@@ -22,13 +26,50 @@ html {
 }
 
 .details {
+  margin: 10vh 30vw 10vh 30vw;
+}
+
+.features {
   margin: 0px 20vw 0px 20vw;
+  padding: 0px 0px 10vh 0px;
+}
+
+.single-feature {
+  padding-bottom: 20px;
+  height: 30vh;
+}
+
+.single-feature>img {
+  max-height: 100%;
+  width: 50%;
+}
+
+.single-feature>div {
+  text-align: center;
+}
+
+.single-feature#left>img {
+  float: left;
+}
+
+.single-feature#right>div {
+  width: 50%;
+  float: left;
+}
+
+.single-feature#right>img {
+  float: right;
 }
 
 .form {
-  margin: 0px 20vw 0px 20vw;
+  margin: 0px 20vw 50px 20vw;
   height: 80vh;
   text-align: center;
+}
+
+.form>iframe {
+  width: 50vw;
+  height: 80vh;
 }
 
 .footer {
