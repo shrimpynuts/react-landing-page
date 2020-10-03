@@ -1,9 +1,9 @@
-# React Landing Page Boilerplate
-![Heroku](https://heroku-badge.herokuapp.com/?app=simple-react-boilerplate)
+# React Landing Page
+![Heroku](https://heroku-badge.herokuapp.com/?app=react-landing-page1)
 
 With this guide you should get an awesome landing page up and running in 5 minutes!
 
-[Live demo](https://simple-react-boilerplate.herokuapp.com/) of what we'll be deploying.
+[Live demo](https://react-landing-page1.herokuapp.com/) of what we'll be deploying.
 
 ## Deploying
 
