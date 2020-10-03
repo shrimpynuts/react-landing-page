@@ -1,24 +1,32 @@
+# React Landing Page Boilerplate
 ![Heroku](https://heroku-badge.herokuapp.com/?app=simple-react-boilerplate)
 
-### `yarn start`
+With this guide you should get an awesome landing page up and running in 5 minutes!
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Live demo](https://simple-react-boilerplate.herokuapp.com/) of what we'll be deploying.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Deploying
 
-### `yarn test`
+### Fork this repository
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Fork this repository
 
-### `yarn build`
+### Setup Heroku
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Push to Heroku
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### Profit
+
+Let's go! 🚀
+
+## Developing
+
+You'll obviously want to modify the content of this landing page to suit your next cool thing. Here are a few instructions on how:
+
+### Google Form
+
+### Images
+
+### Features

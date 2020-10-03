@@ -8,7 +8,6 @@ import medium from '../assets/medium.png'
 
 export default function SocialProof() {
     return <div className="social-proof">
-        <p>Integrated with:</p>
         <div>
             <img src={google}/>
             <img src={substack}/>
