@@ -9,18 +9,21 @@ import React from 'react';
  */
 export default function Feature({ title, description, gif, direction }) {
     return <div className="single-feature" id={direction}>
-        {direction === "left" ? <div>
-            <img src={gif} />
-        </div> : <div>
-                <h3>{title}</h3>
+        
+        {direction === "left" ? 
+            <div><img src={gif} /></div> : 
+            <div>
+                <p><b>{title}</b></p>
                 <p>{description}</p>
             </div>}
-        {direction === "right" ? <div>
-            <img src={gif} />
-        </div> : <div>
-                <h3>{title}</h3>
+
+        {direction === "right" ? 
+            <div><img src={gif} /></div> : 
+            <div>
+                <p><b>{title}</b></p>
                 <p>{description}</p>
             </div>}
+            
     </div>
 
 }
