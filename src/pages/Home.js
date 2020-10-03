@@ -17,7 +17,7 @@ export default function Home() {
                 <h2>We help bloggers actually talk to their people.</h2>
                 <a href="#form"><button id="call-to-action"><b>Join the waitlist!</b></button></a>
                 {/* <p>You're early! We're busy building. If you'd like to stay in the loop, join our waitlist.</p> */}
-                <p>(This is definitely not a real thing, just a demo for the open-source <a target="_blank" href="https://github.com/jonathancai11/react-boilerplate">react-boilerplate</a>)</p>
+                <p>(This is definitely not a real thing, just a demo for the open-source <a target="_blank" href="https://github.com/jonathancai11/react-landing-page">react-landing-page</a>)</p>
                 <p>(Includes a guide on how to deploy this React landing page on Heroku in just 5 minutes!)</p>
             </div>
             
@@ -28,12 +28,12 @@ export default function Home() {
             <SocialProof/>
 
             <section className="details">
-                <p>If you blog, you know how hard it can be to <b>come up with ideas for your next post</b>.</p>
+                <p>If you blog, you know how hard it can be to <span className="highlight"><b>come up with ideas for your next post</b></span>.</p>
                 <p>Ideally, you'd ask your readers for <span className="highlight"><b>ideas and feedback</b></span>.</p>
                 <p>But viewers come from many different channels including Twitter, newsletters, backlinks, subscribers, organic traffic.</p>
                 <p>Thus feedback lives across many platforms, communities, and comment sections.</p>
                 <p>For the price of your afternoon coffee <span className="highlight"><b>(4$/month)</b></span>, we help you navigate the mess and aggregate this information in a digestible way.</p>                
-                <p>We <b>save you time and energy</b> to do what you do best: <span className="highlight"><b>write</b></span>.</p>
+                <p>We <span className="highlight"><b>save you time and energy</b></span> to do what you do best: <span className="highlight"><b>write</b></span>.</p>
                 <p>Here are a few of the awesome things we have in store for you:</p>
             </section>
 
