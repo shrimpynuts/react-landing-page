@@ -41,6 +41,7 @@ NOTE: If there is enough interest, I will add a guide on how to hook up a custom
 
 ## Developing
 
+
 You'll obviously want to modify the content of this landing page to suit your next cool thing. Here are a few instructions on how:
 
 #### Running locally
@@ -63,7 +64,9 @@ NOTE: If there is enough interest, I may also add a TypeForm integration so you 
 
 #### Hero
 
-The Hero is basically what you first see when the page is loaded.
+The hero is basically what you first see when the page is loaded.
+
+You should modify the copy and the big image.
 
 #### Features
 
@@ -72,3 +75,16 @@ I'm using gif's to show off the features but you can also just display static im
 If you like the gif's, I recommend using [giphy capture](https://giphy.com/apps/giphycapture) to screen record your features.
 
 #### Google Analytics
+
+It's helpful to track how many people are reaching your landing page in the first place. 
+
+Using Google Analytics, you can track metrics including acquisition (which channel are you viewers coming from) and stuff like how often they click the "Join the waitlist" button.
+
+Paired with the data from your sign up, you can see what percentage of viewers actually sign up, which can be helpful.
+
+1. Head to [analytics.google.com](analytics.google.com)
+2. Create a new property under Admin
+3. Retrieve and copy the gtag javascript code for your new property
+4. Paste this into `public/index.html`, replacing the old gtag
+
+NOTE: I don't have many instructions yet, but if you have a basic understanding of React, making changes to this codebase shouldn't be too difficult. I'm not sure what level of detail in my instructions is necessary, but I'm lazy, so I'm stopping right now.
