@@ -5,8 +5,6 @@
 
 With this guide you should get an awesome landing page up and running in 5 minutes!
 
-Please ping me if you decide to use this so I can create a gallery of some sort :)
-
 If you have ideas on how to improve this, issues or PR's are much appreciated!
 
 [Live demo](https://react-landing-page1.herokuapp.com/) of what we'll be deploying.
