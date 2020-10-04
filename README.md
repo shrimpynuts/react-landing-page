@@ -79,7 +79,10 @@ Paired with the data from your sign up, you can see what percentage of viewers a
 
 NOTE: I don't have many instructions yet, but if you have a basic understanding of React, making changes to this codebase shouldn't be too difficult. I'm not sure what level of detail in my instructions is necessary, but I'm lazy, so I'm stopping right now.
 
-## To-Do:
+## Backlog:
+
+Just some things that I might implement in the future for this template. Create a Github issue if you want me to add any other features.
+
 - [ ] Instructions for hooking up a custom domain
 - [ ] Change headline copy to "The Best Way for Bloggers to Get _____"
 - [ ] Give more instruction on how to customize?
