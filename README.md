@@ -89,6 +89,9 @@ Just some things that I might implement in the future for this template. Create 
 - [ ] Fix feature card on mobile (stack instead of side-by-side)
 - [ ] Make the header nicer (and replace logo words with real h1)
 - [ ] Write guide about file structure
-- [ ] Alert for promotional discount
-- [ ] Alert for number of people already on waitlist
+- [ ] Alert for promotional discount (maybe limited time alert)
+- [ ] Repeat important features using checklist
+- [ ] Pricing tiers
+- [ ] Alert for number of people already on waitlist with progress bar
 - [ ] Add feedback testomonial
+- [ ] Add personal touch (person who is building this) with ability to contact ("Reach out to me")
