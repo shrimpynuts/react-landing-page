@@ -78,3 +78,11 @@ Paired with the data from your sign up, you can see what percentage of viewers a
 4. Paste this into `public/index.html`, replacing the old gtag
 
 NOTE: I don't have many instructions yet, but if you have a basic understanding of React, making changes to this codebase shouldn't be too difficult. I'm not sure what level of detail in my instructions is necessary, but I'm lazy, so I'm stopping right now.
+
+## To-Do:
+- [ ] Instructions for hooking up a custom domain
+- [ ] Change headline copy to "The Best Way for Bloggers to Get _____"
+- [ ] Give more instruction on how to customize?
+- [ ] Fix feature card on mobile (stack instead of side-by-side)
+- [ ] Make the header nicer (and replace logo words with real <h1>)
+- [ ] Write guide about file structure
