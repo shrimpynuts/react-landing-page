@@ -84,5 +84,8 @@ NOTE: I don't have many instructions yet, but if you have a basic understanding 
 - [ ] Change headline copy to "The Best Way for Bloggers to Get _____"
 - [ ] Give more instruction on how to customize?
 - [ ] Fix feature card on mobile (stack instead of side-by-side)
-- [ ] Make the header nicer (and replace logo words with real <h1>)
+- [ ] Make the header nicer (and replace logo words with real h1)
 - [ ] Write guide about file structure
+- [ ] Alert for promotional discount
+- [ ] Alert for number of people already on waitlist
+- [ ] Add feedback testomonial
