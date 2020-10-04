@@ -95,3 +95,5 @@ Just some things that I might implement in the future for this template. Create 
 - [ ] Alert for number of people already on waitlist with progress bar
 - [ ] Add feedback testomonial
 - [ ] Add personal touch (person who is building this) with ability to contact ("Reach out to me")
+- [ ] SEO and page metadata
+- [ ] Typeform integration
