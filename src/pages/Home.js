@@ -70,7 +70,7 @@ export default function Home() {
 
                 <div style={{ display: "inline-block" }} className="built-by-details">
                     <p>👋 Hi! I'm <a target="_blank" rel="noopener noreferrer" href="jonathancai.com">Jonathan</a>, and I'm the guy building Panda! </p>
-                    <p>Feel free to <a href="mailto:caimjonathan@gmail.com">reach out to me</a> if you have any questions or concerns.</p>
+                    <p>Feel free to <a href="mailto:caimjonathan@gmail.com">reach out</a> if you have any questions or concerns.</p>
                 </div>
             </section>
 
