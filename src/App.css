@@ -6,6 +6,7 @@ section {
   margin: 0px 20vw 0px 20vw;
 }
 
+
 .header>div {
   height: 8vh;
   padding: 10px 10vw 0px 10vw;
@@ -17,6 +18,7 @@ section {
 
 .header>div>h1 {
   padding-left: 5px;
+  font-size: xx-large;
   margin: 0;
   display: inline;
   vertical-align: middle;
@@ -33,21 +35,27 @@ a {
   background-color: rgb(236, 236, 236);
   font-size: large;
   padding: 20px;
+  margin: 20px;
   border: none;
   cursor: pointer;
 }
 
 .hero {
-  margin: 0px 20vw 0px 20vw;
+  margin: 100px 20vw 0px 20vw;
   text-align: center;
 }
 
 .hero>h1 {
   font-size: 70px;
+  margin: 20px;
 }
 
 .hero>h2 {
   font-size: 30px;
+}
+
+.hero>p {
+  margin: 0;
 }
 
 .social-proof {
@@ -101,7 +109,7 @@ section.features {
 
 .single-feature {
   border-radius: 12px;
-  padding: 20px;
+  padding: 50px;
   margin: 40px;
 }
 
@@ -125,9 +133,7 @@ section.features {
   margin: 10vh 10vw 10vh 10vw;
   border-radius: 12px;
   padding-top: 10vh;
-  /* background-color: #f2f2f2; */
   padding-bottom: 10vh;
-  height: 80vh;
   text-align: center;
 }
 
@@ -146,6 +152,31 @@ section.features {
   padding: 30px;
   /* font-size: 20px; */
 }
+
+.features-list {
+  text-align: center;
+}
+
+.features-list>div {
+  width: auto;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.built-by-details {
+  margin-left: 10px;
+  margin-left: 10px;
+}
+
+.built-by {
+  text-align: center;
+  margin: 5vw;
+}
+
+.built-by>div {
+  text-align: left;
+}
+
 
 @media only screen and (max-width: 600px) {
   section {

@@ -83,18 +83,21 @@ NOTE: I don't have many instructions yet, but if you have a basic understanding 
 
 Just some things that I might implement in the future for this template. Create a Github issue if you want me to add any other features.
 
-- [ ] Instructions for hooking up a custom domain
 - [x] Change headline copy to "The Best Way for Bloggers to Get _____"
-- [ ] Give more instruction on how to customize?
+- [x] Add personal touch (person who is building this) with ability to contact ("Reach out to me")
 - [x] Fix feature card on mobile (stack instead of side-by-side)
 - [ ] Fix second feature card re-ordering on mobile
 - [x] Make the header nicer (and replace logo words with real h1)
-- [ ] Write guide about file structure
 - [ ] Alert for promotional discount (maybe limited time alert)
 - [ ] Repeat important features using checklist
 - [ ] Pricing tiers
 - [ ] Alert for number of people already on waitlist with progress bar
 - [ ] Add feedback testomonial
-- [ ] Add personal touch (person who is building this) with ability to contact ("Reach out to me")
 - [ ] SEO and page metadata
 - [ ] Typeform integration
+- [ ] Custom fonts
+
+Guide: 
+- [ ] How to hook up a custom domain
+- [ ] How to customize (more)
+- [ ] File structure
