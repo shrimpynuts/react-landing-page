@@ -88,7 +88,7 @@ Just some things that I might implement in the future for this template. Create 
 - [x] Fix feature card on mobile (stack instead of side-by-side)
 - [ ] Fix second feature card re-ordering on mobile
 - [x] Make the header nicer (and replace logo words with real h1)
-- [ ] Alert for promotional discount (maybe limited time alert)
+- [x] Alert for promotional discount (maybe limited time alert)
 - [ ] Repeat important features using checklist
 - [ ] Pricing tiers
 - [ ] Alert for number of people already on waitlist with progress bar
@@ -96,6 +96,7 @@ Just some things that I might implement in the future for this template. Create 
 - [ ] SEO and page metadata
 - [ ] Typeform integration
 - [ ] Custom fonts
+- [ ] Referral program for waitlist (share on Twitter? custom links?)
 
 Guide: 
 - [ ] How to hook up a custom domain
