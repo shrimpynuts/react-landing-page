@@ -9,11 +9,11 @@ import medium from '../assets/medium.png'
 export default function SocialProof() {
     return <div className="social-proof">
         <div>
-            <img src={google}/>
-            <img src={substack}/>
-            <img src={mailchimp}/>
-            <img src={wordpress}/>
-            <img src={medium}/>
+            <img alt="social proof" src={google}/>
+            <img alt="social proof" src={substack}/>
+            <img alt="social proof" src={mailchimp}/>
+            <img alt="social proof" src={wordpress}/>
+            <img alt="social proof" src={medium}/>
         </div>
     </div>
 }

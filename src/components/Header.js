@@ -4,7 +4,10 @@ import logo from '../assets/logo.png';
 export default function Home() {
     return (
         <div className="header">
-            <img src={logo} height="80%" />
+            <div>
+                <img src={logo} height="60%" />
+                <h1>Panda</h1>
+            </div>
         </div>
     )
 }
