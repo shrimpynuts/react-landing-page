@@ -86,12 +86,15 @@ a {
 
 span.highlight {
   font-weight: bolder;
-  background: linear-gradient(104deg, rgba(130, 255, 173, 0) 0.9%, rgba(130, 255, 173, 1.25) 2.4%, rgba(130, 255, 173, 0.5) 5.8%, rgba(130, 255, 173, 0.1) 93%, rgba(130, 255, 173, 0.7) 96%, rgba(130, 255, 1732, 0) 98%), linear-gradient(183deg, rgba(130, 255, 173, 0) 0%, rgba(130, 255, 173, 0.3) 7.9%, rgba(130, 255, 173, 0) 15%);
+  background: linear-gradient(104deg, rgba(255, 231, 16, 0) 0.9%, rgba(255, 231, 16, 1.25) 2.4%, rgba(255, 231, 16, 0.5) 5.8%, rgba(255, 231, 16, 0.1) 93%, rgba(255, 231, 16, 0.7) 96%, rgba(255, 231, 162, 0) 98%), linear-gradient(183deg, rgba(255, 231, 16, 0) 0%, rgba(255, 231, 16, 0.3) 7.9%, rgba(255, 231, 16, 0) 15%);
   padding: 0.1em 13.7px;
   -webkit-box-decoration-break: clone;
   margin: 0;
   border-radius: 7.5px;
-  text-shadow: -12px 12px 9.8px rgba(130, 255, 173, 0.7), 21px -18.1px 7.3px rgba(255, 255, 255, 1), -18.1px -27.3px 30px rgba(255, 255, 255, 1);
+  text-shadow: -12px 12px 9.8px rgba(255, 231, 16, 0.7), 21px -18.1px 7.3px rgba(255, 255, 255, 1), -18.1px -27.3px 30px rgba(255, 255, 255, 1);
+}
+s {
+  background-color: rgba(255, 231, 16, 0);
 }
 
 
