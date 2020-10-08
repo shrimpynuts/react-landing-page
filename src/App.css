@@ -3,7 +3,7 @@ html {
 }
 
 section {
-  margin: 0px 24vw 0px 24vw;
+  margin: 10vh 20vw 10vh 20vw;
 }
 
 
@@ -138,7 +138,7 @@ s {
 
 .form>iframe {
   width: 50vw;
-  height: 92vh;
+  height: 830px;
 }
 
 .footer {
