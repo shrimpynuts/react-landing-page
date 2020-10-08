@@ -3,7 +3,7 @@ html {
 }
 
 section {
-  margin: 0px 20vw 0px 20vw;
+  margin: 0px 24vw 0px 24vw;
 }
 
 
@@ -79,8 +79,7 @@ a {
 }
 
 .details {
-  padding: 60px;
-  padding-top: 20px;
+  padding: 40px;
   font-size: 24px;
 }
 
@@ -106,14 +105,13 @@ s {
   background: #e1eeff;
 }
 
-section.features {
+/* section.features {
   margin: 0px 5vw 0px 5vw;
-}
+} */
 
 .single-feature {
   border-radius: 12px;
-  padding: 50px;
-  margin: 40px;
+  padding: 10px;
 }
 
 .single-feature>div>p {
@@ -133,16 +131,14 @@ section.features {
 }
 
 .form {
-  margin: 10vh 10vw 10vh 10vw;
   border-radius: 12px;
   padding-top: 10vh;
-  padding-bottom: 10vh;
   text-align: center;
 }
 
 .form>iframe {
   width: 50vw;
-  height: 80vh;
+  height: 92vh;
 }
 
 .footer {
